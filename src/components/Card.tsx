@@ -4,7 +4,7 @@ class Card extends React.Component<ICardProps, ICardState> {
 
     constructor(props: ICardProps) {
         super(props)
-        this.state  = {}
+        
     }
 
     render() {
