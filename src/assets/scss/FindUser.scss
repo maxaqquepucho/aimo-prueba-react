@@ -1,0 +1,95 @@
+
+$f-size: .95em;
+
+.find-user {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    // background: #ccc;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .buscador {
+        // height: 200px;
+        width: 90%;
+        max-width: 500px;
+        position: relative;
+        bottom: 10%; 
+        // background: #aaa;
+
+        h3{
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            margin: 10px 0px 10px 0px;
+        }
+
+        .input-search {
+            padding: 10px 25px 10px 25px;
+            font-size: $f-size;
+            border-radius: 10px 10px 0px 0px;
+            border: 1px solid #ccc;
+            width: 100%;            
+        }
+
+        .input-search:focus {
+            outline: none;
+            box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+            border-color: rgba(223,225,229,0);
+            
+        }
+
+        .input-search:hover {
+            box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+            border-color: rgba(223,225,229,0);
+        }
+
+        .list-search {
+            width: 100%;
+            box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+            border-color: rgba(223,225,229,0);
+            border-radius: 0px 0px 10px 10px;
+            position: absolute;
+            background: white;
+            max-height: 300px;
+            overflow-y: auto;
+            ul {
+                list-style: none;
+                // padding-top: 7px;
+                // padding-bottom: 7px;
+                
+                li {
+                    font-size: $f-size;
+                    padding: 7px 25px 7px 25px;
+                    
+                    a {
+                        color:black;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        text-decoration: none;
+                        img {
+                            border-radius: 100%;
+                        }
+                        .user-name {
+                            margin-left: 10px;
+                        }
+                    }
+
+                }
+
+                li:hover {
+                    background: #ccc;
+                }
+
+            }
+        }
+    }
+}

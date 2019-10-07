@@ -1,0 +1,23 @@
+.footer-container {
+    background-color: #222222;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .container {
+        div {
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+
+            strong {
+                font-size: .85rem;
+            }
+        }
+
+    }
+}

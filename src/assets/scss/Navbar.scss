@@ -1,0 +1,30 @@
+.navbar-container {
+    background-color: #222222;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+    
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    position: relative;
+    z-index: 1;
+    .logo {
+        color:white;
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+
+    .btn-to-search {
+        .btn {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        .btn:hover {
+            color: rgb(144, 194, 241);
+        }
+    }
+}

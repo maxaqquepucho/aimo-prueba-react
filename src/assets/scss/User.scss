@@ -1,0 +1,79 @@
+
+
+.user-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 20px;
+}
+
+.card-user {
+    max-width: 450px;
+    min-width: 330px;
+    width: 70%;
+    border: solid 1px #ccc;
+    
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.7;
+    padding: 15px 50px 15px 50px;
+
+    .card-header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 100%;
+        background: rgb(112, 112, 112);
+        height: 150px;
+        img {
+            border-radius: 100%;
+
+        }
+    }
+
+    .card-body {
+        width: 100%;
+        .user-name {          
+
+            font-weight: 500
+        }
+        .card-email {
+            font-size: .85rem;
+
+            color: rgb(102, 102, 102);
+            font-weight: lighter;
+        }
+
+        .street {
+            margin-top: 10px;
+            color: rgb(51, 51, 51);
+            font-size: .9rem;
+        }
+
+        .separador {
+            margin: 10px 0px 10px 0px;
+            background: #ccc;
+            height: 2px;
+        }
+
+        .come-from {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            color: rgb(51, 51, 51);
+            font-size: .9rem;
+            span {
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+}
+
