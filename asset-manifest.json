@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/aimo-prueba-react/static/css/main.6657b568.chunk.css",
-    "main.js": "/aimo-prueba-react/static/js/main.0929cced.chunk.js",
-    "main.js.map": "/aimo-prueba-react/static/js/main.0929cced.chunk.js.map",
+    "main.js": "/aimo-prueba-react/static/js/main.a7abe1aa.chunk.js",
+    "main.js.map": "/aimo-prueba-react/static/js/main.a7abe1aa.chunk.js.map",
     "runtime-main.js": "/aimo-prueba-react/static/js/runtime-main.adf1d85f.js",
     "runtime-main.js.map": "/aimo-prueba-react/static/js/runtime-main.adf1d85f.js.map",
-    "static/js/2.54fe675d.chunk.js": "/aimo-prueba-react/static/js/2.54fe675d.chunk.js",
-    "static/js/2.54fe675d.chunk.js.map": "/aimo-prueba-react/static/js/2.54fe675d.chunk.js.map",
+    "static/js/2.1e2f90ef.chunk.js": "/aimo-prueba-react/static/js/2.1e2f90ef.chunk.js",
+    "static/js/2.1e2f90ef.chunk.js.map": "/aimo-prueba-react/static/js/2.1e2f90ef.chunk.js.map",
     "index.html": "/aimo-prueba-react/index.html",
-    "precache-manifest.61a8fcfa07269d26969dd714d76ae60f.js": "/aimo-prueba-react/precache-manifest.61a8fcfa07269d26969dd714d76ae60f.js",
+    "precache-manifest.15420f8122c439f204d34849a93cde76.js": "/aimo-prueba-react/precache-manifest.15420f8122c439f204d34849a93cde76.js",
     "service-worker.js": "/aimo-prueba-react/service-worker.js",
     "static/css/main.6657b568.chunk.css.map": "/aimo-prueba-react/static/css/main.6657b568.chunk.css.map",
     "static/media/binoculars.svg": "/aimo-prueba-react/static/media/binoculars.0870e4a3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.adf1d85f.js",
-    "static/js/2.54fe675d.chunk.js",
+    "static/js/2.1e2f90ef.chunk.js",
     "static/css/main.6657b568.chunk.css",
-    "static/js/main.0929cced.chunk.js"
+    "static/js/main.a7abe1aa.chunk.js"
   ]
 }

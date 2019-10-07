@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93d0f206d1235237b284b01184304ad5",
+    "revision": "0aa7f9adbb1c2138175754e1d207b757",
     "url": "/aimo-prueba-react/index.html"
   },
   {
-    "revision": "cf9c184dd2aedb9ef5d6",
+    "revision": "71c2359e87b26c3ee0b0",
     "url": "/aimo-prueba-react/static/css/main.6657b568.chunk.css"
   },
   {
-    "revision": "bba3730fc2c83958a1a8",
-    "url": "/aimo-prueba-react/static/js/2.54fe675d.chunk.js"
+    "revision": "8dd12d4508bb6a2e7da9",
+    "url": "/aimo-prueba-react/static/js/2.1e2f90ef.chunk.js"
   },
   {
-    "revision": "cf9c184dd2aedb9ef5d6",
-    "url": "/aimo-prueba-react/static/js/main.0929cced.chunk.js"
+    "revision": "71c2359e87b26c3ee0b0",
+    "url": "/aimo-prueba-react/static/js/main.a7abe1aa.chunk.js"
   },
   {
     "revision": "f426de919ff9a31a1362",
