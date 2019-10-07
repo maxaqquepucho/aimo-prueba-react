@@ -50,7 +50,7 @@ class FindUser extends React.Component<IFindUserProps, IFindUserState> {
 
     render() {
         return (
-            <div className="container">
+            <div className="container find-user-height">
                 <div className="find-user">
                     <section className="buscador">
                         {/* <Link to={ '/user' } >go to user</Link>   */}

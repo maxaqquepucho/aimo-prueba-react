@@ -1,23 +1,30 @@
 
 $f-size: .95em;
 
-.find-user {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+.find-user-height {
+    height: calc(100% - 100px);
+}
 
-    // background: #ccc;
+.find-user {
+
+    margin-top: 15%;
+
+    position: relative;
+    top: -30px;
+    
+    height: 100%;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    
+
     .buscador {
         // height: 200px;
         width: 90%;
-        max-width: 500px;
+        max-width: 450px;
         position: relative;
         bottom: 10%; 
         // background: #aaa;
@@ -56,9 +63,9 @@ $f-size: .95em;
             box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
             border-color: rgba(223,225,229,0);
             border-radius: 0px 0px 10px 10px;
-            position: absolute;
+            //position: absolute;
             background: white;
-            max-height: 300px;
+            max-height: 200px;
             overflow-y: auto;
             ul {
                 list-style: none;
@@ -91,5 +98,13 @@ $f-size: .95em;
 
             }
         }
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .find-user {
+        top: 0px;
     }
 }
