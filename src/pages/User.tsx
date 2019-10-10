@@ -1,7 +1,8 @@
 import React from 'react'
 import { RouteComponentProps } from 'react-router-dom'
 
-import userData from '../data/data.json'
+
+import data from '../data/data'
 
 import '../assets/scss/User.scss'
 
@@ -32,7 +33,7 @@ class User extends React.Component<IUserProps, IUserState> {
     }
 
     findUser() {
-        return userData.results.filter(user => {
+        return data.results.filter( (user: any) => {
 
             return user.login.username.toLowerCase().includes(this.state.username.toLowerCase())
         })

@@ -4,6 +4,7 @@ class Card extends React.Component<ICardProps, ICardState> {
 
     constructor(props: ICardProps) {
         super(props)
+
         
     }
 
@@ -11,7 +12,7 @@ class Card extends React.Component<ICardProps, ICardState> {
         return (
             <div className="card-user">
                 <div className="card-header">
-                    <img src={this.props.user.picture.large} width="150" alt="" />
+                    <img src={this.props.user.picture.large} width="150" alt="imagen_user" />
                 </div>
                 <div className="card-body text-center">
                     <h2 className="user-name">
@@ -49,7 +50,25 @@ class Card extends React.Component<ICardProps, ICardState> {
 }
 
 interface ICardProps {
-    user: any
+     user: {
+        name: {
+            title: any,
+            first: any,
+            last: any
+
+        },
+        email: any,
+        phone: any,
+        picture: {
+            large: any
+        },
+        location: {
+            street: any,
+            country:any,
+            city: any,
+            state: any,
+        }
+    }
 }
 
 interface ICardState {
