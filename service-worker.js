@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aimo-prueba-react/precache-manifest.ca32cfde2861565c306d85197e80053e.js"
+  "/aimo-prueba-react/precache-manifest.099616c2f6492c9b82d7aabb22403897.js"
 );
 
 self.addEventListener('message', (event) => {

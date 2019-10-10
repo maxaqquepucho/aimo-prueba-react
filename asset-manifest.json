@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/aimo-prueba-react/static/css/main.6657b568.chunk.css",
-    "main.js": "/aimo-prueba-react/static/js/main.ab1988e2.chunk.js",
-    "main.js.map": "/aimo-prueba-react/static/js/main.ab1988e2.chunk.js.map",
+    "main.js": "/aimo-prueba-react/static/js/main.ac0b1972.chunk.js",
+    "main.js.map": "/aimo-prueba-react/static/js/main.ac0b1972.chunk.js.map",
     "runtime-main.js": "/aimo-prueba-react/static/js/runtime-main.adf1d85f.js",
     "runtime-main.js.map": "/aimo-prueba-react/static/js/runtime-main.adf1d85f.js.map",
     "static/js/2.7c5f2102.chunk.js": "/aimo-prueba-react/static/js/2.7c5f2102.chunk.js",
     "static/js/2.7c5f2102.chunk.js.map": "/aimo-prueba-react/static/js/2.7c5f2102.chunk.js.map",
     "index.html": "/aimo-prueba-react/index.html",
-    "precache-manifest.ca32cfde2861565c306d85197e80053e.js": "/aimo-prueba-react/precache-manifest.ca32cfde2861565c306d85197e80053e.js",
+    "precache-manifest.099616c2f6492c9b82d7aabb22403897.js": "/aimo-prueba-react/precache-manifest.099616c2f6492c9b82d7aabb22403897.js",
     "service-worker.js": "/aimo-prueba-react/service-worker.js",
     "static/css/main.6657b568.chunk.css.map": "/aimo-prueba-react/static/css/main.6657b568.chunk.css.map",
     "static/media/binoculars.svg": "/aimo-prueba-react/static/media/binoculars.0870e4a3.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.adf1d85f.js",
     "static/js/2.7c5f2102.chunk.js",
     "static/css/main.6657b568.chunk.css",
-    "static/js/main.ab1988e2.chunk.js"
+    "static/js/main.ac0b1972.chunk.js"
   ]
 }
