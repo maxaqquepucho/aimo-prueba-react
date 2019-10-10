@@ -2,12 +2,6 @@ import React from 'react'
 
 class Card extends React.Component<ICardProps, ICardState> {
 
-    constructor(props: ICardProps) {
-        super(props)
-
-        
-    }
-
     render() {
         return (
             <div className="card-user">
