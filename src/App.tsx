@@ -9,7 +9,7 @@ import FindUser from './pages/FindUser'
 //layout
 import Layout from './layout/Layout'
 
-import './assets/scss/app.scss'
+
 
 const App: React.FC = () => {
   return (

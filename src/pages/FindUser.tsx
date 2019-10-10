@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import UserData from '../data/data.json'
+
+import data from '../data/data'
+
 //style 
 import '../assets/scss/FindUser.scss'
 import ImgSeart from '../assets/images/binoculars.svg'
@@ -15,7 +17,7 @@ class FindUser extends React.Component<IFindUserProps, IFindUserState> {
 
         this.state = {
             buscar: '',
-            data: UserData.results,
+            data: data.results,
             filtered: []
         }
     }
